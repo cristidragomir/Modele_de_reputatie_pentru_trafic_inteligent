@@ -1,0 +1,14 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "RoadTrafficMonitoringServer",
+            "Group": "Servers",
+            "Host": "RoadTrafficDbContainer",
+            "Port": 5432,
+            "MaintenanceDB": "RoadTrafficDatabase",
+            "Username": "postgres",
+            "SSLMode": "prefer",
+            "PassFile": "/tmp/pgpassfile"
+        }
+    }
+}

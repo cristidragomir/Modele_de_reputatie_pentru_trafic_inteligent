@@ -1,0 +1,1 @@
+docker compose -f startExtDb.yml up --build
